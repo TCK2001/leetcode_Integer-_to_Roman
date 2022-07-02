@@ -46,7 +46,7 @@ class Solution:
             one = I[num % 10
             res = hundred + ten + one
                     
-        elif num >=10 :
+        elif num >=10:
             ten = X[(num % 100) // 10]
             one = I[num % 10]
             res = ten + one
